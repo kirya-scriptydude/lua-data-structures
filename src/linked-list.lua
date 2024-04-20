@@ -1,7 +1,3 @@
-local function printOutNode(node)
-    print("Next "..tostring(node.Next).." - ".."Value "..node.Value)
-end
-
 local function createNode(nextNode, val)
     local node = {}
     
